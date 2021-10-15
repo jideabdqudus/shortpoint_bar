@@ -1,0 +1,133 @@
+body{
+  background-color: #FAFAFA;
+  margin: 100px;
+}
+h1{
+  text-align: center;
+  font-family: sans-serif;
+
+}
+p{
+  text-align: center;
+  font-size: small;
+}
+.container{
+  padding: 10px 16px;
+}
+
+.outer-grey{
+  color: rgb(232, 230, 227);
+  background-color: #EBEBEB;
+  border-radius: 20px;
+  margin: 30px;
+}
+
+.outer-red{
+  color: rgb(232, 230, 227);
+  background-color: #EBEBEB;
+  border-radius: 20px;
+  margin: 30px;
+}
+
+.outer-white{
+  color: rgb(232, 230, 227);
+  background-color: #EBEBEB;
+  border-radius: 20px;
+  margin: 30px;
+}
+
+.outer-blue{
+  color: rgb(232, 230, 227);
+  background-color: #EBEBEB;
+  border-radius: 20px;
+  margin: 30px;
+}
+
+.outer-yellow{
+  color: rgb(232, 230, 227);
+  background-color: #EBEBEB;
+  border-radius: 20px;
+  margin: 30px;
+}
+
+.yellow{
+  color: rgb(232, 230, 227);
+  background: repeating-linear-gradient(
+    45deg,
+    #FFDD8A,
+    #FECE61 6px,
+    #FED173 6px,
+    #F7C454 6px
+  );
+  border-color: 5px solid grey;
+  border-radius: 20px;
+  text-align: right;
+}
+
+.red{
+  color: rgb(232, 230, 227);
+  background: repeating-linear-gradient(
+    45deg,
+    #FC7E6F,
+    #FF9486 6px,
+    #FD8571 6px,
+    #FA8677 6px
+  );
+  border-color: 5px solid grey;
+  border-radius: 20px;
+  text-align: right;
+}
+
+.blue{
+  color: rgb(232, 230, 227);
+  background: repeating-linear-gradient(
+    45deg,
+    #A9D5F5,
+    #7CC5F0 6px,
+    #70BDEE 6px,
+    #74B9E4 6px
+  );
+  border-color: 5px solid grey;
+  border-radius: 20px;
+  text-align: right;
+}
+
+.white{
+  color: rgb(232, 230, 227);
+  background-color: #ffff;
+  border-color: 5px solid grey;
+  border-radius: 20px;
+  text-align: right;
+}
+
+.green{
+  color: rgb(232, 230, 227);
+  background: repeating-linear-gradient(
+    45deg,
+    #95D14E,
+    #B3E16F 6px,
+    #ACDF67 6px,
+    #87BB4B 6px
+  );
+  border-color: 5px solid grey;
+  border-radius: 20px;
+  text-align: right;
+}
+
+.progress-text{
+  font-weight: 600;
+  color: #333;
+  font-family: sans-serif;
+}
+
+.btn{
+  display: grid;
+  width: 90px;
+  padding-top: 10px;
+  height: 40px;
+  margin: auto;
+}
+
+.reset{
+  display: none;
+}
